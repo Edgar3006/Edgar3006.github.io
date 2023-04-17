@@ -1,0 +1,78 @@
+
+
+
+        body{
+            color: gold;
+        }
+        #group_1{
+             color: darkgreen;
+        }
+
+        #lista_u{
+            color: magenta;
+        }
+
+        #lista_item1{
+            color: burlywood;
+        }
+
+        #lista_item2{
+            color: aqua;
+        }
+
+        #lista_item3{
+            color: bisque;
+        }
+
+        #lista_item4{
+            color: goldenrod;
+        }
+        .link_1{text-decoration: underline;}
+        .link_2{text-decoration: underline;}
+        .link_3{text-decoration: underline;}
+        .link_4{text-decoration: underline;}
+        .link_5{text-decoration: underline;}
+
+        .color_1-1{background-color: rgb(255,0,0);}
+        .color_1-2{background-color: rgb(255,64,0);}
+        .color_1-3{background-color: rgb(255,128,0);}
+        .color_1-4{background-color: rgb(255,191,0);}
+        .color_2-1{background-color: rgb(255,0,0);}
+        .color_2-2{background-color: rgb(255,0,0);}
+        .color_2-3{background-color: rgb(255,0,0);}
+
+        
+        p{
+            background-color: burlywood;
+            margin-top :5px;
+            margin-right:15px;
+            margin-left:15px;
+            margin-bottom:10px; 
+        }
+        #parrafoEspecial{
+            background-color: black;
+            margin: 25px 50px;
+            text-align: center;
+            text-indent: 50px;
+            line-height: 2;
+        }
+        #cuadro{
+            border: 5px solid yellow;
+        }
+        th,td{
+            border: 1px solid black ;
+        }
+        .alterno{
+            background-color: burlywood;
+        }
+        h1:hover, h2:hover, h3:hover{
+            color: black;
+            background-color: aquamarine;
+        }
+        td:hover{
+            background-color: lightgoldenrodyellow;
+        }
+        #cuadro td:hover, #cuadro th:hover{
+            background-color: lightblue;
+            background-color: lightseagreen;
+        }
