@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- 
+    Nombre: Edgar omar Rodriguez Hernandez
+    Materia: Programacion Web 1
+    Fecha: 9 de marzo 
+    descripcion: etiquetas multimedia y de contenido especifico
+-->
+<html lang=""es>
+    <head>
+        <title>Plantilla</title>
+        <meta charset="utf-8">
+        <meta  name "author" content="Edgar Omar Rodriguez hernandez ">
+        <meta  name "revised" content="martes 14 de marzo">
+        <meta  name "description" content="audio video source, address, 
+        small, cite, blockquote, time, sub, sup, var, kbd, code, sample. pre">
+    </head>
+    <body>
+        <hgrou>
+            <h1>Etiquetas multimedia</h1>
+            <video controls loop>
+                <source src="multimedia/flower.webm" >
+            </video>
+            <video controls autoplay>
+                <source src="multimedia/movie.mp4">
+                <source src="multimedia/movie.ogv">
+
+            </video>
+            <video controls autoplay>
+                <source src="multimedia/friday.mp4">
+                <track src="multimedia/friday.vtt "  kind="subtitles" srclang="en"  label="english"> 
+                <track src="multimedia/viernes.vtt "  kind="subtitles" srclang="en"  label="spanish"> 
+            </video>
+
+        </hgrou>
+        <hgroup>
+            <h1>UPSLP</h1>
+            <iframe height="600px" width="800px" src="https://es.wikipedia.org/wiki/Universidad_Polit%C3%A9cnica_de_San_Luis_Potos%C3%AD"></iframe>
+            <h2>You tube</h2>
+            <iframe height="600px" width="800px" src=""></iframe>
+            <h2>Facebook</h2>
+            <iframe height="600px" width="800px" src=""></iframe>
+            <h2>Twiter</h2>
+            <iframe height="600px" width="800px" src=""></iframe>
+            <h2>instagram</h2>
+            <iframe height="600px" width="800px" src=""></iframe>
+        </hgroup>
+        <hgroup>
+            <h1>Etiquetas de contenido especifico</h1>
+            Parrafo: <p> C. Urbano Villalón 500, La Ladrillera, 78369 San Luis, S.L.P.</p>
+            Dirección: <address>C. Urbano Villalón 500, La Ladrillera, 78369 San Luis, S.L.P.</address>
+           <br> pequeño:<br> <small>C. Urbano Villalón 500, La Ladrillera, 78369 San Luis, S.L.P.</small>
+            <br>Cita:<br> <cite>C. Urbano Villalón 500, La Ladrillera, 78369 San Luis, S.L.P.</cite>
+            <br>Bloque: <blockquote>C. Urbano Villalón 500, La Ladrillera, 78369 San Luis, S.L.P.</blockquote>
+            <br> Resaltado: <mark>C. Urbano Villalón 500, La Ladrillera, 78369 San Luis, S.L.P.</mark>
+            <br>Fecha:<br><cite>Lunes 13 de marzo de 2023<time>2023-03-13</time></cite>
+
+            Materia: <small>Programación Web</small>
+            <br>Grupo: <small>T10C</small>
+            <br>Horarios
+            <ul>
+                <li><small>Lunes <time>12:00</time> a <time>12:55 </time></small></li>
+                <li><small>Martes <time>12:00</time> a <time>12:55 </time></small></li>
+                <li><small>Miercoles <time>12:00</time> a <time>12:55 </time></small></li>
+                <li><small>Jueves <time>12:00</time> a <time>12:55 </time></small></li>
+                <li><small>Viernes <time>12:00</time> a <time>12:55 </time></small></li>
+            </ul>
+            Universidad politecnica de San Luis Potosí<sup>UPSLP, 2023</sup><br>
+            Universidad politecnica de San Luis Potosí<sub>UPSLP, 2023</sub>
+
+            <h2>UPSLP</h2>
+            <ul>
+
+                <li>Aspirantes<a href="#1"><sup>[1]</sup></a></li>
+                <li>Alumnos<a href="#2"><sup>[2]</sup></a></li>
+                <li>Docentes<a href="#3"><sup>[3]</sup></a></li>
+                <li>Administrativos<a href="#4"><sup>[4]</sup></a></li>
+            </ul>
+
+            <h3>Referencias</h3>
+            <ol>
+                <li id="1">Aspirantes: <a target="_blank" href="https://www.upslp.edu.mx/upslp/?page_id=244"></a><sub>https://www.upslp.edu.mx/upslp/?page_id=244</sub></li>
+                <li id="2">Alumnos: <sub>https://www.upslp.edu.mx/upslp/?page_id=209</sub></li>
+                <li id="3">Docentes: <sub>https://www.upslp.edu.mx/upslp/?page_id=231</sub></li>
+                <li id="4">Administrativos: <sub>https://www.upslp.edu.mx/upslp/?page_id=236</sub></li>
+
+            </ol>
+            <h3>Otros ejemplos</h3>
+            Relatividad: E=mc<sup>2</sup><br>
+            Agua: H<sub>2</sub>O<br>
+            Glucosa: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub><br>
+            Sodio (Na): 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>1</sup><br>
+            Ecuación:3x<sup>2</sup>+6y<sup>2</sup>=25<br>
+            Definición de Variables: <var>x</var> =3, <var>y</var> =4.<br>
+            Ejemplos basicos de lengauje C
+            <br><code>
+                for(int i=0;i==10;i++){
+                    printf("hola mundo%d",i);
+                }
+                    
+            </code>
+
+
+        </hgroup>
+
+
+    </body>
+</html>
